@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7efe5;
+  color: #3a2318;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.hero {
+  min-height: 300px;
+  background:
+    linear-gradient(rgba(35, 15, 5, 0.58), rgba(35, 15, 5, 0.76)),
+    url("https://i.imgur.com/Fvjtt77.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.hero-content {
