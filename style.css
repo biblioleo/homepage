@@ -35,6 +35,7 @@ ul {
 
 .hero-content {
   max-width: 1050px;
+  width: 100%;
 }
 
 .big-logo {
@@ -97,4 +98,3 @@ ul {
 
 .hero-btn:visited {
   color: #5c2a13;
-}
