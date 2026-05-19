@@ -8,6 +8,7 @@ const genreFilter = document.getElementById("genre-filter");
 const availabilityFilter = document.getElementById("availability-filter");
 const sortFilter = document.getElementById("sort-filter");
 const counter = document.getElementById("counter");
+const newBooksList = document.getElementById("new-books");
 const clearFavoritesButton = document.getElementById("clear-favorites");
 const bookModal = document.getElementById("book-modal");
 const bookModalContent = document.getElementById("book-modal-content");
@@ -97,4 +98,3 @@ function getBookCover(book) {
 
   if (isbn !== "") {
     const cleanIsbn = isbn.replace(/[^0-9Xx]/g, "");
-    return `https://covers.openlibrary.org/b/isbn/${cleanIsbn}-L.jpg?default=false`;
