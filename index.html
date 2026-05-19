@@ -98,3 +98,41 @@
       <h2>Catalogo libri</h2>
       <p>Clicca su una copertina per leggere tutte le informazioni del libro.</p>
     </div>
+
+    <ul id="results" class="book-list"></ul>
+  </section>
+
+  <section id="preferiti" class="preferiti-section">
+    <div class="favorites-heading">
+      <div class="section-title small">
+        <h2>❤️ Libri preferiti</h2>
+        <p>Qui trovi i libri salvati tra i preferiti.</p>
+      </div>
+
+      <button id="clear-favorites" class="clear-favorites-btn" type="button">
+        Svuota preferiti
+      </button>
+    </div>
+
+    <ul id="favorites-list" class="book-list"></ul>
+  </section>
+
+</main>
+
+<div id="book-modal" class="book-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="book-modal-backdrop" data-close-modal></div>
+
+  <article class="book-modal-panel">
+    <button class="modal-close-btn" type="button" aria-label="Chiudi scheda libro" data-close-modal>
+      ×
+    </button>
+
+    <div id="book-modal-content"></div>
+  </article>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
