@@ -34,3 +34,67 @@ ul {
 }
 
 .hero-content {
+  max-width: 1050px;
+}
+
+.big-logo {
+  font-size: clamp(3.7rem, 9vw, 6.8rem);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -3px;
+  text-shadow: 0 8px 24px rgba(0,0,0,0.45);
+}
+
+.biblio {
+  color: #fff4e8;
+}
+
+.leo {
+  color: #d9a441;
+}
+
+.hero h1 {
+  color: #fff4e8;
+  font-size: clamp(1.35rem, 3vw, 2.25rem);
+  margin-top: 8px;
+  font-weight: 900;
+}
+
+.hero p {
+  color: #fff4e8;
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  margin: 8px 0 22px;
+  font-weight: 700;
+}
+
+.hero-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.hero-btn {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  background: rgba(255, 244, 230, 0.95);
+  color: #5c2a13;
+  border: 2px solid #d9a441;
+  padding: 13px 26px;
+  border-radius: 999px;
+  font-weight: 900;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.28);
+  transition: 0.25s ease;
+}
+
+.hero-btn:hover {
+  background: #d9a441;
+  color: #fff4e8;
+  transform: translateY(-4px);
+}
+
+.hero-btn:visited {
+  color: #5c2a13;
+}
