@@ -6,6 +6,7 @@
   <title>BiblioLeo - Catalogo online</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header class="hero">
@@ -13,31 +14,42 @@
     <div class="big-logo">
       <span class="biblio">Biblio</span><span class="leo">Leo</span>
     </div>
+
     <h1>IIS Leonardo - Giarre</h1>
     <p>Il catalogo online della biblioteca scolastica</p>
 
     <nav class="hero-nav">
       <a href="#catalogo" class="hero-btn">
-        <span>📚</span> Catalogo
+        <span>📚</span>
+        Catalogo
       </a>
+
       <a href="https://gaiainfantino01.github.io/mensoladel-prof/" class="hero-btn" target="_blank" rel="noopener">
-        <span>⭐</span> Biblioteca del prof
+        <span>⭐</span>
+        Biblioteca del prof
       </a>
+
       <a href="#preferiti" class="hero-btn">
-        <span>❤️</span> Preferiti
+        <span>❤️</span>
+        Preferiti
       </a>
     </nav>
   </div>
 </header>
 
 <main class="container">
+
   <section id="mensola-prof" class="mensola-prof">
     <a href="https://gaiainfantino01.github.io/mensoladel-prof/" class="recommended-header recommended-link" target="_blank" rel="noopener">
       <span class="recommended-icon">⭐</span>
+
       <span class="recommended-title-box">
         <span class="recommended-title">Biblioteca del prof</span>
-        <span class="recommended-subtitle">Apri lo spazio esterno con i libri consigliati dai docenti</span>
+        <span class="recommended-subtitle">
+          Apri lo spazio esterno con i libri consigliati dai docenti
+        </span>
       </span>
+
       <span class="recommended-arrow">↗</span>
     </a>
   </section>
@@ -85,21 +97,3 @@
         <h2>❤️ Libri preferiti</h2>
         <p>Qui trovi i libri salvati tra i preferiti.</p>
       </div>
-      <button id="clear-favorites" class="clear-favorites-btn" type="button">Svuota preferiti</button>
-    </div>
-    <ul id="favorites-list" class="book-list"></ul>
-  </section>
-</main>
-
-<div id="book-modal" class="book-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
-  <div class="book-modal-backdrop" data-close-modal></div>
-  <article class="book-modal-panel">
-    <button class="modal-close-btn" type="button" aria-label="Chiudi scheda libro" data-close-modal>×</button>
-    <div id="book-modal-content"></div>
-  </article>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-<script src="script.js"></script>
-</body>
-</html>
